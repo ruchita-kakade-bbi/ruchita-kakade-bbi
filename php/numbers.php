@@ -17,4 +17,15 @@ $y =10.654;
 //is infinity- to check value is finite or not
  $z=1.9e411;
  var_dump(is_finite($z));
+ echo "<br>";
+//php casting convert string and float to integer
+//float to integer
+  $x=123.443;
+  $int_cast =(int)$x;
+  echo $int_cast;  
+  echo "<br>";
+//string to integer
+  $x ="1234.5678";
+  $int_cast=(int)$x;
+  echo $int_cast;
 ?>
