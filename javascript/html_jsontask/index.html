@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <script type="text/javascript" src="validation.js"></script>
+    <noscript>
+      <style type="text/css">
+        .DivClass {
+          display: none;
+        }
+
+        h1 {
+          margin-top: 5cm;
+          text-align: center;
+        }
+      </style>
+
+      <h1>It seems that you have disable javascript please enable it</h1>
+    </noscript>
+    <style>
+      body[form] {
+        border-radius: 10px;
+        border-color: black;
+      }
+
+      h2 {
+        text-align: center;
+        color: black;
+        margin-top: 2cm;
+        font-size: 40px;
+      }
+
+      #fname {
+        margin-left: 3px;
+      }
+
+      #lname {
+        margin-left: 3.5px;
+      }
+
+      #email {
+        margin-left: 9px;
+      }
+
+      form {
+        text-align: center;
+      }
+
+      div {
+        margin-top: 0.5cm;
+        text-align: left;
+        margin-left: 43%;
+        color: rgb(184, 11, 149);
+        font-size: 30px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2 class="DivClass">
+      <span id="onMouse" onmouseover="MouseEvent()" onmouseout="changeColor()">
+        sign Up form
+      </span>
+    </h2>
+
+    <form id="myform" class="DivClass">
+      <label for="fname">First Name:</label>
+      <input
+        type="text"
+        id="fname"
+        name="fname"
+        placeholder="First name"
+      /><br /><br />
+
+      <label for="lname">Last Name:</label>
+      <input type="lname" id="lname" placeholder="Last name" /><br /><br />
+      <label for="contact">Contact No:</label>
+      <input
+        type="text"
+        id="contact"
+        placeholder="+91 ----- -----"
+      /><br /><br />
+      <label for="email">Email id:</label>&nbsp;
+      <input
+        type="text"
+        id="email"
+        placeholder="ruchita@example.com"
+      /><br /><br />
+      <input
+        type="submit"
+        formaction="next.html"
+        value="submit"
+        onclick="return validateForm()"
+      />&nbsp;
+      <input type="button" value="view json" onclick="json()" />
+      <input type="button" value="clearJs" id="clear" />
+    </form>
+
+    <div id="view"></div>
+  </body>
+</html>

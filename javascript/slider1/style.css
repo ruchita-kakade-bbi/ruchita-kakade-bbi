@@ -1,0 +1,17 @@
+#img2 {
+  float: right;
+  display: none;
+}
+#img3 {
+  float: right;
+  display: none;
+}
+#img1 {
+  position: absolute;
+}
+#div1 {
+  margin-top: 10%;
+}
+#btn1 {
+  margin-top: 40%;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #form1 {
+        border-style: solid;
+        border-color: black;
+        text-align: center;
+        padding: 10px 20px 30px 10px;
+        border-radius: 10px;
+      }
+      #div1 {
+        display: none;
+        height: 150%;
+        width: 30%;
+        position: fixed;
+        margin-left: 700px;
+        margin-top: 300px;
+      }
+    </style>
+  </head>
+  <body id="body">
+    <img src="nature.jpeg" id="apply" />
+    <div id="div1">
+      <form id="form1">
+        <h1>signup</h1>
+        <label for="Name">First Name: </label>
+        <input type="text" placeholder="enter your first name" /><br />
+        <br />
+        <label for="last name">Last Name: </label>
+        <input type="text" placeholder="enter your last name" /><br />
+        <br />
+        <label for="phn no">Phone No : </label>
+        <input type="text" placeholder="enter your phone number" /><br />
+        <br /><button>Sign up</button>
+      </form>
+    </div>
+    <button id="btn1" onclick="openForm()" class="apply">Signup</button>
+    <script type="text/javascript" src="form.js"></script>
+  </body>
+</html>

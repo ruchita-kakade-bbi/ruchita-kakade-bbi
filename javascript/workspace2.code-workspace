@@ -1,0 +1,33 @@
+{
+	"folders": [
+		{
+			"name": "bubbling task",
+			"path": "bubbling task"
+		},
+		{
+			"name": "javascript part2",
+			"path": "javascript part2"
+		},
+		{
+			"name": "javascript part1",
+			"path": "javascript part1"
+		},
+		{
+			"name": "html_jsontask",
+			"path": "html_jsontask"
+		},
+		{
+			"name": "DataStructure ",
+			"path": "DataStructure "
+		},
+		{
+			"path": "spreadOPerator"
+		},
+		{
+			"path": "Developer Skills & Editor Setup "
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Developer Skills & Editor Setup "
+	}
+}
