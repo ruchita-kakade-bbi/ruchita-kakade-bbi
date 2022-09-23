@@ -1,0 +1,2 @@
+AJAX is about updating parts of a web page, without reloading the whole page.
+

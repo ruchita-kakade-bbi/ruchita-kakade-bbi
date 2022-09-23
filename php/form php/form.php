@@ -12,7 +12,7 @@
             border-color: black;
             text-align: center;
             margin-top: 15%;
-        }
+        }   
     </style>
 </head>
 
@@ -28,8 +28,8 @@
         <button type="submit">Submit</button>
     </form> -->
          <form action="post.php" method="get" >
-        Name: <input type="text" name="fname" required><br>
-        Email: <input type="text" name="Email"><br>
+         Name: <input type="text" name="fname" required><br>
+         Email: <input type="text" name="Email"><br>
         <button type="submit">Submit</button>
     </form>
         

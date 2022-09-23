@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Text Input Control</title>
+   <style>
+      form {
+         border-radius: 30px;
+         border-color: black;
+         text-align: center;
+         margin-top: 2%;
+      }
+
+      h2 {
+         text-align: center;
+         color: black;
+         margin-top: 2cm;
+         font-size: 40px;
+      }
+   </style>
+</head>
+
+<body>
+   <div>
+      <h2>SIGN UP form</h2>
+      <form action="signupData.php" method="POST">
+         userName: <input type="text" name="first_name" required />
+         <br><br>
+         lastName: <input type="text" name="lname" required><br><br>
+         password:<input type="password" name="password"><br><br>
+         <!-- <button>submit</button> -->
+         <input type="submit">
+         <a href="login.php">login page</a>
+
+
+      </form>
+   </div>
+</body>
+
+</html>
