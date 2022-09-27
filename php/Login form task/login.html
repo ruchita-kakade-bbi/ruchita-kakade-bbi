@@ -1,0 +1,60 @@
+<html>
+
+<head>
+  <style>
+    body {
+      background-color: #f8efed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    div {
+      border-radius: 10px;
+      border-color: black;
+      border-width: 3px;
+      border-style: outset;
+      background-color: lightblue;
+      height: 35%;
+      width: 25%;
+      text-align: center;
+      font-size: 23px;
+      /* border:px solid; */
+
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+
+    #btn {
+      background-color: rgba(0, 0, 0, 0.607);
+      color: aliceblue;
+      padding: 4px 10px 5px 10px;
+      border-radius: 5px;
+    }
+
+    #err {
+      color: rgb(232, 36, 19);
+
+    }
+  </style>
+
+</head>
+
+<body id="body">
+  <div id="main">
+    <h1>Login form</h1>
+    <form id="form">
+      <p>Username:- <input type="text" name="first_name" placeholder="Username" required /></p>
+      <P> Password:- <input type="password" name="password" placeholder="Password" required></P>
+      <p id="err"></p>
+      <button type="button" id="btn" onclick="displayData(first_name.value,password.value)">Submit</button>&nbsp;&nbsp;
+      <a href="signUp.html">signup</a>
+    </form>
+  </div>
+  <script type="text/javascript" src="login.js"></script>
+</body>
+
+</html>
