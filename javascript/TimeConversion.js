@@ -11,7 +11,6 @@ function TimeConversion(input) {
         if (sec == 60) {
             min++;
             sec = 0;
-
         }
         if (min == 60) {
             hr++;
@@ -25,7 +24,6 @@ function TimeConversion(input) {
             year++;
             day = 0;
         }
-
     }
 
     console.log(`${year}year  ${day}days  ${hr}hours  ${min}minutes  ${sec}seconds`);
